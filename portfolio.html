@@ -19,7 +19,7 @@
   <body data-page="portfolio">
     <div class="site-frame">
       <header class="site-header">
-        <a class="wordmark" href="./index.html">Patrick</a>
+        <a class="wordmark" href="./index.html">PL</a>
         <nav class="site-nav" aria-label="Primary">
           <a href="./index.html">Home</a>
           <a href="./portfolio.html">Portfolio</a>
@@ -28,105 +28,129 @@
       </header>
 
       <main class="portfolio-layout">
-        <section class="portfolio-intro">
-          <div class="portfolio-card reveal">
-            <p class="kicker">Portfolio</p>
-            <h1>Selected work, arranged to be easy to browse.</h1>
-            <p class="lead">
-              This page is intentionally cleaner and more structured. It gives
-              each project enough space to feel distinct while still making the
-              collection easy to scan.
-            </p>
-          </div>
-
-          <aside class="resume-card reveal">
-            <div class="metric-stack">
-              <div class="metric">
-                <span class="metric-label">Current Focus</span>
-                <strong class="metric-value">Brand + Web + Visual Systems</strong>
-              </div>
-              <div class="metric">
-                <span class="metric-label">Project Style</span>
-                <strong class="metric-value">Clear, warm, editorial</strong>
-              </div>
-              <div class="metric">
-                <span class="metric-label">Status</span>
-                <strong class="metric-value">More work can be added over time</strong>
-              </div>
-            </div>
-          </aside>
+        <section class="portfolio-heading reveal">
+          <h1>Selected Projects</h1>
+          <p>
+            A curated collection of software engineering projects spanning
+            systems programming, backend development, web applications, and AI.
+          </p>
         </section>
 
         <section class="portfolio-grid">
-          <article class="portfolio-card light-peach reveal">
-            <header>
-              <span class="card-index">Project 01</span>
-            </header>
-            <h3>Personal Brand Site</h3>
-            <p>
-              A homepage concept focused on presence, warmth, and a confident
-              first impression.
-            </p>
-            <div class="tag-row">
-              <span>Art Direction</span>
-              <span>Web Design</span>
-              <span>Frontend</span>
+          <article class="project-card reveal">
+            <div class="project-media terminal-media">
+              <img src="./mockos-preview.png" alt="MockOS command line demo" />
+            </div>
+            <div class="project-body">
+              <div class="project-heading">
+                <span class="card-index">Project 01</span>
+                <h3>MockOS</h3>
+              </div>
+              <p class="project-summary">
+                Modular in-memory file system demonstrating extensible
+                object-oriented software architecture in C++14.
+              </p>
+
+              <div class="project-section">
+                <h4>Tech Stack</h4>
+                <p>C++14 · CMake · GoogleTest · CLI</p>
+              </div>
+
+              <div class="project-section">
+                <h4>Key Highlights</h4>
+                <ul class="highlight-list">
+                  <li>Designed an extensible command framework using abstract interfaces</li>
+                  <li>Applied 7 classic object-oriented design patterns</li>
+                  <li>Built an in-memory file system supporting multiple file types</li>
+                  <li>Implemented macro command composition and password-protected files</li>
+                  <li>Developed comprehensive GoogleTest unit tests</li>
+                </ul>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/lslpatrick/mockos-cpp" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://github.com/lslpatrick/mockos-cpp#readme" target="_blank" rel="noreferrer">README</a>
+              </div>
             </div>
           </article>
 
-          <article class="portfolio-card light-sage reveal">
-            <header>
-              <span class="card-index">Project 02</span>
-            </header>
-            <h3>Portfolio Collection</h3>
-            <p>
-              A cleaner listing style for projects, meant to grow as more case
-              studies are added.
-            </p>
-            <div class="tag-row">
-              <span>Layout System</span>
-              <span>UI Design</span>
-              <span>Content Structure</span>
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img src="./bronzes-preview.png" alt="Ancient Chinese Bronzes web application preview" />
+            </div>
+            <div class="project-body">
+              <div class="project-heading">
+                <span class="card-index">Project 02</span>
+                <h3>Ancient Chinese Bronzes</h3>
+              </div>
+              <p class="project-summary">
+                React-based educational web application combining curated
+                historical content with live museum collection data through REST
+                API integration.
+              </p>
+              <div class="project-section">
+                <h4>Tech Stack</h4>
+                <p>React · Vite · React Router · JavaScript · CSS · REST API</p>
+              </div>
+              <div class="project-section">
+                <h4>Key Highlights</h4>
+                <ul class="highlight-list">
+                  <li>Built a multi-page React application with client-side routing using React Router</li>
+                  <li>Integrated The Metropolitan Museum of Art Collection API for live artifact browsing</li>
+                  <li>Implemented dynamic filtering by historical period and artifact type</li>
+                  <li>Developed an interactive lightbox for browsing grouped artifact images</li>
+                  <li>Designed reusable React components for timelines, galleries, and structured content sections</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/lslpatrick/ancient-chinese-bronzes" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://github.com/lslpatrick/ancient-chinese-bronzes#readme" target="_blank" rel="noreferrer">README</a>
+                <a href="https://lslpatrick.github.io/ancient-chinese-bronzes/" target="_blank" rel="noreferrer">Website</a>
+              </div>
             </div>
           </article>
 
-          <article class="portfolio-card light-sand reveal">
-            <header>
-              <span class="card-index">Project 03</span>
-            </header>
-            <h3>Resume Landing Page</h3>
-            <p>
-              A resume page translated into a more polished and web-friendly
-              presentation.
-            </p>
-            <div class="tag-row">
-              <span>Personal Identity</span>
-              <span>Typography</span>
-              <span>Information Design</span>
+          <article class="project-card reveal">
+            <div class="project-media terminal-media">
+              <img src="./banking-preview.png" alt="Banking CLI App command line demo" />
             </div>
-          </article>
-
-          <article class="portfolio-card light-stone reveal">
-            <header>
-              <span class="card-index">Project 04</span>
-            </header>
-            <h3>Future Work Placeholder</h3>
-            <p>
-              This slot is ready for your real project later, whether that is a
-              product, visual identity, research project, or internship work.
-            </p>
-            <div class="tag-row">
-              <span>To Be Updated</span>
-              <span>Case Study</span>
+            <div class="project-body">
+              <div class="project-heading">
+                <span class="card-index">Project 03</span>
+                <h3>Banking CLI App</h3>
+              </div>
+              <p class="project-summary">
+                Java command-line banking simulator demonstrating modular
+                object-oriented design, business-rule modeling, and automated
+                testing through reusable customer and administrator workflows.
+              </p>
+              <div class="project-section">
+                <h4>Tech Stack</h4>
+                <p>Java · JUnit 5 · Bash · CLI · OOP</p>
+              </div>
+              <div class="project-section">
+                <h4>Key Highlights</h4>
+                <ul class="highlight-list">
+                  <li>Designed a modular banking system with separated domain logic, customer workflows, and administrator controls</li>
+                  <li>Implemented checking and savings account support with transfers, transaction history, overdraft protection, and statement generation</li>
+                  <li>Built administrator features including account freezing, maintenance fee collection, and configurable savings interest</li>
+                  <li>Refactored account modeling with Java enum types and centralized reusable CLI input validation to improve maintainability and robustness</li>
+                  <li>Developed automated JUnit 5 tests covering banking logic, customer authentication, and interactive CLI workflows</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/lslpatrick/banking-cli-app" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://github.com/lslpatrick/banking-cli-app#readme" target="_blank" rel="noreferrer">README</a>
+              </div>
             </div>
           </article>
         </section>
 
-        <section class="contact-strip reveal">
-          <p>Add project images, links, and short case study summaries later.</p>
+        <section class="contact-strip portfolio-footer reveal" aria-label="Portfolio navigation">
           <div class="contact-links">
-            <a href="./index.html">Back Home</a>
-            <a href="./resume.html">Go to Resume</a>
+            <a href="./index.html">Home</a>
+            <a href="./resume.html">Resume</a>
+            <a href="https://github.com/lslpatrick" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </section>
       </main>
