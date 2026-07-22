@@ -1119,6 +1119,10 @@ h1 {
   box-shadow: none;
 }
 
+.resume-footer {
+  margin-top: 34px;
+}
+
 .portfolio-footer .contact-links {
   justify-content: center;
   padding: 0;
